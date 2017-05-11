@@ -3,5 +3,18 @@
     "info": {
         "title": "Greeter",
         "description": "Says Hello"
+    },
+    "paths": {
+        "/Hello": {
+            "get": {
+                "summary": "Summary",
+                "description": "Say Hello",
+                "responses": {
+                    "200": {
+                        "description": "Ok"
+                    }
+                }
+            }
+        }
     }
 }
